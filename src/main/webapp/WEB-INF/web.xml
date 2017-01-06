@@ -9,8 +9,11 @@
             <param-name>jersey.config.server.provider.packages</param-name>
             <param-value>com.rest.vaibhav.document.resource</param-value>
         </init-param>
-        <load-on-startup>1</load-on-startup>
-    </servlet>
+         <load-on-startup>2</load-on-startup>
+        </servlet>
+        <welcome-file-list>
+    <welcome-file>landingPage.html</welcome-file>
+      </welcome-file-list>
     <servlet-mapping>
         <servlet-name>Jersey Web Application</servlet-name>
         <url-pattern>/webapi/*</url-pattern>

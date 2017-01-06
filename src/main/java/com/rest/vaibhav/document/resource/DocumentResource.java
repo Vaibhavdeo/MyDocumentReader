@@ -18,7 +18,7 @@ import com.rest.vaibhav.document.Model.Document;
 @Path("documents")
 @Consumes(MediaType.APPLICATION_JSON)
 @Produces(MediaType.APPLICATION_XML)
-//@Produces("application/json")
+
 public class DocumentResource {
 
 	private DocumentService documentService = new DocumentService();

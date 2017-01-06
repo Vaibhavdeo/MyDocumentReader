@@ -13,8 +13,10 @@ public class DocumentService {
 	
 	public DocumentService(){
 		
-		documents.put("Aadhar", new Document(1l,"1234", "Aadhar"));
-		documents.put("PAN", new Document(2l,"4567", "PAN"));
+		documents.put("Aadhar", new Document(1l,"223955959279", "Aadhar"));
+		documents.put("PAN", new Document(2l,"BDOPD", "PAN"));
+		documents.put("UAN", new Document(3l,"100671453580", "UAN"));
+		documents.put("PF", new Document(3l,"PU/PUN/1376740/165", "PF"));
 		
 	}
 	
